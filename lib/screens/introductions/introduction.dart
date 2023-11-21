@@ -25,10 +25,14 @@ class _IntroductionPageState extends State<IntroductionPage> {
 
   @override
   void initState() {
-    Future.delayed(const Duration(seconds: 1)).whenComplete(() {
+    Future.delayed(const Duration(seconds: 2)).whenComplete(() {
+      setState(() {
+        opacityLevel = 1.0;
+      });
+    });
+    Future.delayed(const Duration(microseconds: 100)).whenComplete(() {
       setState(() {
         scale = 1.0;
-        opacityLevel = 1.0;
       });
     });
     super.initState();
@@ -42,7 +46,7 @@ class _IntroductionPageState extends State<IntroductionPage> {
         children: [
           AnimatedOpacity(
             opacity: opacityLevel,
-            duration: const Duration(seconds: 4),
+            duration: const Duration(seconds: 5),
             curve: Curves.decelerate,
             child: TextButton(
               onPressed: widget.functionButton,
