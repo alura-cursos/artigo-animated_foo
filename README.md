@@ -1,16 +1,19 @@
-# hyrule
+![Capa do artigo Conhecendo Animated Foo](capa.png)
 
-A new Flutter project.
+## Iniciando o projeto:
 
-## Getting Started
+Para rodar o projeto rode os seguintes comandos em seu terminal:
 
-This project is a starting point for a Flutter application.
+```shell
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+```shell
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## O que é o projeto?
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Gif apresentando as features do projeto](projeto.gif)
+
+O projeto é um compendium chamado Hyrule. Essa aplicação mostra diversas informações sobre itens, equipamentos, monstros e mais, que existem no jogo Zelda: Breath of the Wild.
